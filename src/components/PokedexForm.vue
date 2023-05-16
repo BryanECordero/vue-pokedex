@@ -7,7 +7,7 @@
         v-model="pokemonName"
         placeholder="Busca tu pokemon"
         autocomplete="off"/>
-        <button @click="sendId" class="pokemon-btn">Enviar</button>
+        <input type="button" @click="sendId" value="&#xe8b6;" class="pokemon-btn material-icons">
     </form>
 </template>
 

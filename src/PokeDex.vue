@@ -101,6 +101,8 @@ export default {
 body{
     margin: 0;
     background-color: var(--dark-red);
+    padding-top: 4rem;
+    overflow: hidden;
 }
 
 h1, h2{
@@ -343,7 +345,7 @@ ul{
   padding: .8rem;
 }
 .pokedex-screen {
-  background: white;
+  background: #87ad34;
   border: 2px solid black;
   border-radius: 10px;
   height: 100%;
